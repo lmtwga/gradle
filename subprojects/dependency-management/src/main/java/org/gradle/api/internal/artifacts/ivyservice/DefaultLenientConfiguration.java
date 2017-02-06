@@ -287,8 +287,6 @@ public class DefaultLenientConfiguration implements LenientConfiguration, Visite
                 fileDependencyResults.getFiles().visit(transformingVisitor);
             }
             artifactResults.getArtifacts().visit(transformingVisitor);
-
-
             return;
         }
 
